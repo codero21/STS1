@@ -423,6 +423,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = D4T692RC82;
 				INFOPLIST_FILE = STS1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codero.STS1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -436,6 +437,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = D4T692RC82;
 				INFOPLIST_FILE = STS1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codero.STS1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -520,6 +522,7 @@
 				E306F0421F37980900B0251D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E306F0431F37980900B0251D /* Build configuration list for PBXNativeTarget "STS1Tests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +531,7 @@
 				E306F0451F37980900B0251D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E306F0461F37980900B0251D /* Build configuration list for PBXNativeTarget "STS1UITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +540,7 @@
 				E306F0481F37980900B0251D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
