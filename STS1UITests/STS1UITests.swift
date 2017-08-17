@@ -31,6 +31,35 @@ class STS1UITests: XCTestCase {
     func testExample() {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+    
+        
+        
+        
+        let element3 = XCUIApplication().children(matching: .window).element(boundBy: 0).children(matching: .other).element.children(matching: .other).element(boundBy: 1).children(matching: .other).element(boundBy: 1)
+        let element2 = element3.children(matching: .other).element(boundBy: 0)
+        let button = element2.children(matching: .button).element(boundBy: 0)
+        button.tap()
+        
+        let button2 = element2.children(matching: .button).element(boundBy: 1)
+        button2.tap()
+        
+        let button3 = element3.children(matching: .other).element(boundBy: 1).children(matching: .button).element
+        button3.tap()
+        button.tap()
+        button2.tap()
+        button3.tap()
+        XCUIDevice.shared().orientation = .landscapeRight
+        
+        let element = element2.children(matching: .other).element
+        element.children(matching: .button).element(boundBy: 0).tap()
+        element.children(matching: .button).element(boundBy: 1).tap()
+        button3.tap()
+        XCUIDevice.shared().orientation = .portrait
+        button3.tap()
+        
+        
+        
+        
     }
     
 }
