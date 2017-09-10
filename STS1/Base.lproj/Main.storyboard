@@ -13,7 +13,6 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="STS1" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
@@ -73,7 +72,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="210" height="478"/>
                                                                 <color key="backgroundColor" red="0.9919000268" green="0.31906167949999997" blue="0.25869902950000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <size key="titleShadowOffset" width="90" height="90"/>
-                                                                <state key="normal" title="Login" backgroundImage="cat">
+                                                                <state key="normal" image="Loign" backgroundImage="cat">
                                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                                                 </state>
                                                             </button>
@@ -111,6 +110,7 @@
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QQe-Rv-ekv">
                                                         <rect key="frame" x="0.0" y="0.0" width="288" height="478"/>
                                                         <color key="backgroundColor" red="0.36472936690000002" green="1" blue="0.34596203879999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                         <state key="normal" title="Register" backgroundImage="cello_player">
                                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                                         </state>
@@ -674,26 +674,26 @@
                                 <exclude reference="urg-bk-SfK"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="5e6-c9-oaz"/>
-                                <exclude reference="dNp-nf-17c"/>
-                                <exclude reference="oIT-b0-BR3"/>
+                                <exclude reference="6Ft-n2-lim"/>
+                                <exclude reference="RG7-Bh-UU7"/>
                                 <exclude reference="6pK-cj-G9c"/>
                                 <exclude reference="96B-cR-i8B"/>
                                 <exclude reference="Jc3-1a-cxY"/>
                                 <exclude reference="YNy-dj-8YQ"/>
                                 <exclude reference="fDM-NH-7AP"/>
                                 <exclude reference="rc5-AG-l3s"/>
-                                <exclude reference="DYe-wF-O5v"/>
-                                <exclude reference="JAP-I5-lhu"/>
-                                <exclude reference="JY5-VI-zhB"/>
-                                <exclude reference="tpi-QP-tiV"/>
-                                <exclude reference="6Ft-n2-lim"/>
-                                <exclude reference="RG7-Bh-UU7"/>
-                                <exclude reference="zU8-LZ-mEe"/>
                                 <exclude reference="GhG-7s-UPC"/>
                                 <exclude reference="XOk-4j-ZFt"/>
                                 <exclude reference="ZFW-dV-03o"/>
                                 <exclude reference="dIN-yc-quG"/>
+                                <exclude reference="zU8-LZ-mEe"/>
+                                <exclude reference="5e6-c9-oaz"/>
+                                <exclude reference="dNp-nf-17c"/>
+                                <exclude reference="oIT-b0-BR3"/>
+                                <exclude reference="DYe-wF-O5v"/>
+                                <exclude reference="JAP-I5-lhu"/>
+                                <exclude reference="JY5-VI-zhB"/>
+                                <exclude reference="tpi-QP-tiV"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=compact-widthClass=compact">
@@ -704,10 +704,10 @@
                                 <exclude reference="BRx-il-cGf"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="ZFW-dV-03o"/>
                                 <include reference="5e6-c9-oaz"/>
                                 <include reference="dNp-nf-17c"/>
                                 <include reference="oIT-b0-BR3"/>
-                                <include reference="ZFW-dV-03o"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=compact-widthClass=regular">
@@ -744,23 +744,25 @@
                                 <exclude reference="BRx-il-cGf"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="6Ft-n2-lim"/>
+                                <include reference="RG7-Bh-UU7"/>
+                                <include reference="GhG-7s-UPC"/>
+                                <include reference="zU8-LZ-mEe"/>
                                 <include reference="DYe-wF-O5v"/>
                                 <include reference="JAP-I5-lhu"/>
                                 <include reference="JY5-VI-zhB"/>
                                 <include reference="tpi-QP-tiV"/>
-                                <include reference="6Ft-n2-lim"/>
-                                <include reference="RG7-Bh-UU7"/>
-                                <include reference="zU8-LZ-mEe"/>
-                                <include reference="GhG-7s-UPC"/>
                             </mask>
                         </variation>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="146.70571010248901" y="195.703125"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Loign" width="196" height="36"/>
         <image name="benzo" width="90" height="60"/>
         <image name="cat" width="90" height="60"/>
         <image name="cello_player" width="90" height="60"/>
